@@ -1,4 +1,4 @@
-#!/bin/sh                                                                                                                                                  
+#!/bin/sh
 
 CUR_DIR=`pwd`
 DIRECTORY=~/.macromedia/Flash_Player/macromedia.com/support/flashplayer/sys/
