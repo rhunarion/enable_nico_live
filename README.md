@@ -9,3 +9,4 @@ Ubuntuでニコニコ生放送／ニコ生を見ようとすると
 wget https://raw.githubusercontent.com/rhunarion/enable_nico_live/master/enable_nico_live.sh
 sh ./enable_nico_live.sh
 ```
+やっていることは設定ファイルのsettings.solをsettings.xmlに変換し、手動でパラメータを修正して元に戻しているだけです。
