@@ -11,7 +11,7 @@ function change_klimit_value() {
 }
 
 cd $DIRECTORY
-wget https://raw.githubusercontent.com/rhunarion/s2x.py/master/s2x.py
+wget https://raw.githubusercontent.com/rhunarion/enable_nico_live/master/s2x.py
 DOMAIN=\#live.nicovideo.jp change_klimit_value
 DOMAIN=\#res.nimg.jp change_klimit_value
 rm s2x.py
