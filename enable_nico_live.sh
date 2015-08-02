@@ -8,9 +8,9 @@ function change_klimit_value() {
 }
 
 CUR_DIR=`pwd`
-DIRECTORY=~/.macromedia/Flash_Player/macromedia.com/support/flashplayer/sys/
+FLASH_DIR=~/.macromedia/Flash_Player/macromedia.com/support/flashplayer/sys/
 
-cd $DIRECTORY
+cd $FLASH_DIR
 wget https://raw.githubusercontent.com/rhunarion/enable_nico_live/master/s2x.py
 DOMAIN=\#live.nicovideo.jp change_klimit_value
 DOMAIN=\#res.nimg.jp change_klimit_value
